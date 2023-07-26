@@ -1,9 +1,9 @@
+import HangmanVue from '@/components/games/Hangman.vue';
+import SudokuVue from '@/components/games/Sudoku.vue';
+import TicTacToeVue from '@/components/games/TicTacToe.vue';
+import AboutViewVue from '@/views/AboutView.vue';
+import HomeViewVue from '@/views/HomeView.vue';
 import {createRouter, createWebHistory} from 'vue-router';
-import HomeView from '../views/HomeView.vue';
-import TicTacToe from '@/components/TicTacToe.vue';
-import Hangman from '@/components/Hangman.vue';
-import Sudoku from '@/components/Sudoku.vue';
-import About from '@/views/AboutView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -11,27 +11,27 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      component: HomeViewVue,
     },
     {
       path: '/about',
       name: 'about',
-      component: About,
+      component: AboutViewVue,
     },
     {
       path: '/ticTacToe',
       name: 'ticTacToe',
-      component: TicTacToe,
+      component: TicTacToeVue,
     },
     {
       path: '/hangman',
       name: 'hangman',
-      component: Hangman,
+      component: HangmanVue,
     },
     {
       path: '/sudoku',
       name: 'sudoku',
-      component: Sudoku,
+      component: SudokuVue,
     },
   ],
 });
