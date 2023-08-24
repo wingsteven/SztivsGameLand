@@ -1,0 +1,98 @@
+{
+  "jobs": [
+    {
+      "jobTitle": "IT Specialist 2 (Programmer)",
+      "companyName": "NYSED",
+      "startDate": "06/2022",
+      "endDate": "Present",
+      "details": [
+        "Replaced an outdated library implementation that processes PDFs for long term digital archiving",
+        "Modernize applications to use more capable and secure frameworks",
+        "Implement solutions for feature requests and bug fixes",
+        "Maintain application security and efficacy by keeping software libraries up-to-date"
+      ]
+    },
+    {
+      "jobTitle": "Programmer/Analyst",
+      "companyName": "The College of Saint Rose",
+      "startDate": "03/2020",
+      "endDate": "06/2022",
+      "details": [
+        "Improved reporting capability for the college with high quality queries and report design",
+        "Administrated and developed web applications to expand the capabilities of the college website",
+        "Executed migration of legacy COBOL programs into PL/SQL procedures",
+        "Spearheaded updating and verifying internal documentation to improve business continuity and longevity"
+      ]
+    },
+    {
+      "jobTitle": "Middle Eastern Cryptologic Linguist",
+      "companyName": "United States Marine Corps",
+      "startDate": "05/2009",
+      "endDate": "02/2014",
+      "details": [
+        "Maintained excellent proficiency of target language, Pashto",
+        "Stationed at NSA Georgia where I proof-read reports, copied and delivered intelligence documents in a time-sensitive manner, and provided personnel productivity records"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Computer Science BS and Mathematics BA",
+      "schoolName": "The College of Saint Rose",
+      "location": "Albany, NY",
+      "gradDate": "December 2019"
+    },
+    {
+      "degree": "Mathematics and Science AS",
+      "schoolName": "Schenectady County Community College",
+      "location": "Schenectady, NY",
+      "gradDate": "May 2016"
+    }
+  ],
+  "techStack": [
+    {
+      "name": "Java",
+      "type": "Language"
+    },
+    {
+      "name": "SQL",
+      "type": "Language"
+    },
+    {
+      "name": "Python",
+      "type": "Language"
+    },
+    {
+      "name": "COBOL",
+      "type": "Language"
+    },
+    {
+      "name": "Spring",
+      "type": "Framework"
+    },
+    {
+      "name": "Vue",
+      "type": "Framework"
+    },
+    {
+      "name": "Grails",
+      "type": "Framework"
+    },
+    {
+      "name": "Gradle",
+      "type": "Build Tool"
+    },
+    {
+      "name": "IntelliJ",
+      "type": "IDE"
+    },
+    {
+      "name": "VSCode",
+      "type": "IDE"
+    },
+    {
+      "name": "TOAD",
+      "type": "IDE"
+    }
+  ]
+}
